@@ -1,0 +1,35 @@
+{
+  "name": "mani!? - ヒカマニ語録翻訳",
+  "short_name": "mani!?",
+  "description": "AIがテキストをヒカマニ語録・平野光平語に翻訳します",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "lang": "ja",
+  "categories": ["utilities", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "翻訳する",
+      "url": "/",
+      "description": "テキストをヒカマニ語録に翻訳"
+    }
+  ]
+}
