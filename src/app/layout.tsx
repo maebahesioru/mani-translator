@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
+import { HkmProBanner } from "./HkmPro";
 
 export const viewport: Viewport = {
   themeColor: "#3b82f6",
@@ -103,6 +104,7 @@ export default function RootLayout({
       <body className="antialiased">
         <ServiceWorkerRegister />
         {children}
+        <HkmProBanner />
       </body>
     </html>
   );
