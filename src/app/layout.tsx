@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mani.hikamer.f5.si"),
   title: {
     default: "mani!? - ヒカマニ語録翻訳サイト",
     template: "%s | mani!?",
@@ -31,16 +32,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    url: "https://mani-translator.vercel.app",
+    url: "https://mani.hikamer.f5.si",
     siteName: "mani!?",
     title: "mani!? - ヒカマニ語録翻訳サイト",
     description: "AIがテキストをヒカマニ語録・平野光平語に翻訳します。ニコニコ動画で人気の音MAD「Hikakin_Mania」の語録を使った翻訳サービス。",
+    images: ["/opengraph-image.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "mani!? - ヒカマニ語録翻訳サイト",
     description: "AIがテキストをヒカマニ語録・平野光平語に翻訳します。",
     creator: "@maebahesioru2",
+    images: ["/opengraph-image.png"],
   },
   robots: {
     index: true,
@@ -54,7 +57,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mani-translator.vercel.app",
+    canonical: "https://mani.hikamer.f5.si",
   },
   verification: {
     // Google Search Console登録後にここに追加
@@ -75,7 +78,7 @@ export default function RootLayout({
     '@type': 'WebApplication',
     name: 'mani!?',
     description: 'AIがテキストをヒカマニ語録・平野光平語に翻訳するサービス',
-    url: 'https://mani-translator.vercel.app',
+    url: 'https://mani.hikamer.f5.si',
     applicationCategory: 'UtilityApplication',
     operatingSystem: 'Any',
     offers: {
